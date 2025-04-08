@@ -13,8 +13,8 @@ a6 = st.number_input("enter dewpoint : ")
 a7 = st.number_input("enter windspeed : ")
  
 if st.button ("predict"):
-    op=mymodel.predict([[a1,a2,a3,a4,a5,a6,a7]])
-    if op==1;
+    op = mymodel.predict([[a1,a2,a3,a4,a5,a6,a7]])
+    if op==1:
         st.write('barish hogi!!!')
     else:
         st.write('barish nahi hogi!!!')
